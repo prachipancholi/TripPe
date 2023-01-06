@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+.container {
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #98ACF8;
+    font-weight: bold;
+    text-align: center;
+    line-height: 130%;
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        width: 70%;
+    }
+    .container {
+        padding: 70px 10px 10px 10px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+}

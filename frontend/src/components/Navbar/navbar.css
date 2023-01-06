@@ -1,0 +1,24 @@
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-light {
+    background-color: #98ACF8;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
+
+.navbar-brand>img {
+    border-radius: 50%;
+    max-width: 40px;
+    max-height: 40px;
+    padding: auto;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+}

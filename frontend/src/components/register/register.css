@@ -1,0 +1,20 @@
+.terms {
+    color: black;
+}
+
+.terms:hover {
+    color: rgb(212, 199, 199);
+}
+
+.regInput {
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137);
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border: none;
+    background: #fff;
+    font-size: 16px;
+    color: rgb(0, 0, 32);
+    outline: none;
+}
