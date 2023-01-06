@@ -13,8 +13,8 @@ app.use(express.json())
 app.use(require("./router/auth"))
 
 const User = require("./model/schema")
-const port = process.env.PORT
+const port = process.env.PORT || 3000
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log("Working")
 })
