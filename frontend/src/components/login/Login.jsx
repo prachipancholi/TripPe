@@ -19,7 +19,7 @@ const Login = () => {
     e.preventDefault();
     const { email, pass } = data;
 
-    const res = await fetch("/login", {
+    const res = await fetch("https://trippe1.onrender.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

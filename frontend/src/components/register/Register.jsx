@@ -23,7 +23,7 @@ const Register = () => {
     e.preventDefault();
     const { email, pass, conPass } = data;
 
-    const res = await fetch("/register", {
+    const res = await fetch(`https://trippe1.onrender.com/register`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
